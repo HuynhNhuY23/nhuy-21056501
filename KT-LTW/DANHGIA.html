@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đánh Giá</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Đánh Giá</h2>
+    <form id="reviewForm">
+        <label for="name">Tên:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="rating">Đánh Giá:</label>
+        <select id="rating" name="rating" required>
+            <option value="">Chọn mức độ hài lòng</option>
+            <option value="1">1 Sao</option>
+            <option value="2">2 Sao</option>
+            <option value="3">3 Sao</option>
+            <option value="4">4 Sao</option>
+            <option value="5">5 Sao</option>
+        </select>
+        
+        <label for="comment">Nội dung đánh giá:</label>
+        <textarea id="comment" name="comment" required></textarea>
+        
+        <button type="button" id="submitReview">Đánh giá</button>
+    </form>
+</div>
+
+<div id="reviewResult" class="hidden"></div>
+<script src="scripts.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*Liên hệ*/
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.thongtin, .lienhe {
+    flex: 1;
+    padding: 10px;
+}
+.thongtin p {
+    color: #696969;
+}
+h1 {
+    color: blue;
+    text-indent: 250px;
+}
+hr {
+    border-color: red;
+    border-top: 5;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.container input{   
+    width: 500px;
+    height: 40px;
+    margin-top: 10px;
+}
+.container button {
+    margin-top: 10px;
+    width: 200px;
+    height: 35px;
+    background-color: lightskyblue;
+    color: white;
+    border-color: lightskyblue;
+    cursor: pointer;
+}
+#noidung {
+    height: 100px;
+}
+.lienhe h3{
+    color: darkviolet;
+}
+    
+
+
+
+
+/*ĐÁNH GIÁ*/
+        .container {
+            margin: 50px auto;
+            width: 80%;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #reviewResult {
+            margin-top: 20px;
+            border-top: 2px solid #ccc;
+            padding-top: 20px;
+        }
+  
+
+
+
+
+
+
+
